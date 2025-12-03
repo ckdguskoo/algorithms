@@ -1,3 +1,5 @@
+package day7;
+
 import java.util.Arrays;
 
 public class day7_1 {
