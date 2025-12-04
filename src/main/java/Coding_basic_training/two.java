@@ -1,6 +1,4 @@
-package any;
-
-import java.util.ArrayList;
+package Coding_basic_training;
 
 public class two {
     public static void main(String[] args) {
