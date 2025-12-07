@@ -1,11 +1,31 @@
 package Coding_basic_training;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Day7_3 {
     public static void main(String[] args) {
-        int[] arr = {1, 4, 2, 5, 3};
-        int[] stk = new int[3];
+        int[] arr = {5, 3, 4, 1, 2};
+        List<Integer> list = new ArrayList<>();
+        int i = 0;
+        while (arr.length>i){
+            if (list.isEmpty()){
+                list.add(arr[i]);
+                i+=1;
+            }
+            else if (list.get(list.size()-1) < arr[i]) {
+                list.add(arr[i]);
+                i+=1;
+            }else if (list.get(list.size()-1) >= arr[i]) {
+                list.remove(list.size()-1);
+            }
+        }
+        int[] stk = list.stream().mapToInt(Integer::intValue).toArray();
 
 
+
+        //입력값 〉 [5, 3, 4, 1, 2]
+        //기댓값 〉 [1, 2]
 
 
 
@@ -21,5 +41,10 @@ public class Day7_3 {
         //stk에 원소가 있는데 stk의 마지막 원소가 arr[i]보다 크거나 같으면 stk의 마지막 원소를 stk에서 제거합니다.
 
         //위 작업을 마친 후 만들어진 stk를 return 하는 solution 함수를 완성해 주세요.
+
+
+        /* for문을 고집해서 쓰는거보다 while문도 유동적으로 사용해야겠다.
+        너무 for문에 집착하다 보니 문제를 어렵게 생각하고 있었다...
+         */
     }
 }
