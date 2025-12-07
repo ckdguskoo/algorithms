@@ -1,7 +1,27 @@
 package Coding_basic_training;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class eight {
     public static void main(String[] args) {
+        int  n = 20;
+        List<Integer> list = new ArrayList<>();
+        list.add(n);
+
+        while (!(n ==1)){
+            if (n%2 == 0){
+                n=n/2;
+                list.add(n);
+            }else {
+                n=3*n+1;
+                list.add(n);
+            }
+        }
+        int[] answer = list.stream().mapToInt(Integer::intValue).toArray();
+
+        System.out.println(Arrays.toString(answer));
 
 
 
@@ -14,5 +34,8 @@ public class eight {
         //계산 결과 1,000 보다 작거나 같은 수에 대해서는 전부 언젠가 1에 도달한다는 것이 알려져 있습니다.
         //
         //임의의 1,000 보다 작거나 같은 양의 정수 n이 주어질 때 초기값이 n인 콜라츠 수열을 return 하는 solution 함수를 완성해 주세요.
+        
+        //초보의 정석으로 푼거같음
+        //다른사람들 코드를 읽고있는데 반환형을 list로 바꿔서 리스트를 바로 반환하는게 인상깊었음
     }
 }
