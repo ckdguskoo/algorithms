@@ -1,6 +1,6 @@
 package Coding_basic_training;
 
-public class ten {
+public class Ten {
     public static void main(String[] args) {
         String my_string = "programmers";
         String alp = "x";

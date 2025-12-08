@@ -2,7 +2,7 @@ package Coding_basic_training;
 
 import java.util.Arrays;
 
-public class day7_1 {
+public class Day7_1 {
     public static void main(String[] args) {
         int[] arr = {0, 1, 2, 4, 3};
         int[][] queries =

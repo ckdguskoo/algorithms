@@ -1,6 +1,6 @@
 package Coding_basic_training;
 
-public class four {
+public class Four {
     public static void main(String[] args) {
         String myString = "aBcDeFg";
         myString = myString.toUpperCase();

@@ -2,9 +2,8 @@ package Coding_basic_training;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-public class five {
+public class Five {
     public static void main(String[] args) {
         int start_num = 1;
         int end_num = 20;

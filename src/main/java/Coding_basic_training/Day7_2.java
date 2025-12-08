@@ -3,7 +3,7 @@ package Coding_basic_training;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class day7_2 {
+public class Day7_2 {
     public static void main(String[] args) {
     int l = 5;
     int r = 555;
