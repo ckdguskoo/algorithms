@@ -3,7 +3,7 @@ package Coding_basic_training;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Five {
+public class A_5 {
     public static void main(String[] args) {
         int start_num = 1;
         int end_num = 20;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
-public class Three {
+public class A_3 {
     public static void main(String[] args) {
 
         int[] num_list = {2, 1, 6};

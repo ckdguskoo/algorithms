@@ -1,6 +1,6 @@
 package Coding_basic_training;
 
-public class One {
+public class A_1 {
     public static void main(String[] args) {
         int[] arr = {13, 22, 53, 24, 15, 6};
         int answer = 0;

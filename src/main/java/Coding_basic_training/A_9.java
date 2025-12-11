@@ -1,6 +1,6 @@
 package Coding_basic_training;
 
-public class Nine {
+public class A_9 {
     public static void main(String[] args) {
 
         String my_string = "He110W0r1d";

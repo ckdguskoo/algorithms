@@ -1,6 +1,6 @@
 package Coding_basic_training;
 
-public class Two {
+public class A_2 {
     public static void main(String[] args) {
 
         String my_strint = "ProgrammerS123";

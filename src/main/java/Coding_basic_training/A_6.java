@@ -1,6 +1,6 @@
 package Coding_basic_training;
 
-public class Six {
+public class A_6 {
     public static void main(String[] args) {
         String my_string = "banana";
         String is_prefix = "ban";

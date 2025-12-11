@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Eight {
+public class A_8 {
     public static void main(String[] args) {
         int  n = 20;
         List<Integer> list = new ArrayList<>();
