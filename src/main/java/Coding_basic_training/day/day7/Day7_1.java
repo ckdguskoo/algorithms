@@ -1,4 +1,4 @@
-package Coding_basic_training;
+package Coding_basic_training.day.day7;
 
 import java.util.Arrays;
 

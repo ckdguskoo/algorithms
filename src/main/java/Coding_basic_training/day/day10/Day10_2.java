@@ -1,6 +1,4 @@
-package Coding_basic_training;
-
-import java.util.Arrays;
+package Coding_basic_training.day.day10;
 
 public class Day10_2 {
     public static void main(String[] args) {

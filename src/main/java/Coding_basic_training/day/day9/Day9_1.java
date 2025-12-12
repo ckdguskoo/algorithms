@@ -1,7 +1,6 @@
-package Coding_basic_training;
+package Coding_basic_training.day.day9;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Day9_1 {

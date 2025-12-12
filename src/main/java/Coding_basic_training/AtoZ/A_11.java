@@ -1,7 +1,6 @@
-package Coding_basic_training;
+package Coding_basic_training.AtoZ;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class A_11 {

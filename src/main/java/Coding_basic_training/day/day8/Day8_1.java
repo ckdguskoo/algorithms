@@ -1,4 +1,4 @@
-package Coding_basic_training;
+package Coding_basic_training.day.day8;
 
 public class Day8_1 {
     public static void main(String[] args) {
