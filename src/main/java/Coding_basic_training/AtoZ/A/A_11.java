@@ -1,4 +1,4 @@
-package Coding_basic_training.AtoZ;
+package Coding_basic_training.AtoZ.A;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Coding_basic_training.AtoZ;
+package Coding_basic_training.AtoZ.A;
 
 public class A_4 {
     public static void main(String[] args) {
